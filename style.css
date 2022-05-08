@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-height: 100vh;
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(216, 12%, 8%);
+}
+.top_container{
+    background-color:  hsl(213, 19%, 18%);
+    width: 16rem;
+    padding: 20px;
+    border-radius: 1rem;
+    margin: 10% 0 10% 0;
+    
+}
+.bottom_container{
+    display:none;
+    background-color:  hsl(213, 19%, 18%);
+    width: 16rem;
+    padding: 20px;
+    border-radius: 1rem;
+    margin: 10% 0 10% 0;
+    text-align: center;
+}
+.star{
+    background-color: rgb(60, 65, 72);
+    padding: 8px;
+    border-radius: 100%;
+    position: relative;
+    right: 7.5rem;
+}
+h1{
+    text-align: left;
+    font-family: "Overpass",sans-serif;
+    font-size: 1.5rem;
+}
+.left{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    text-align: left;
+    padding: 0 2px 0 2px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.num{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.number{
+    color: hsl(217, 12%, 63%);
+    padding: 8px;
+    background-color: rgb(60, 65, 72);
+    border-radius: 100%;
+    border:1px solid rgb(60, 65, 72) ;
+    padding: 0.95rem;
+    margin: 5px 0 1.2rem 0;
+    cursor: pointer;
+}
+
+.number:hover{
+    color:white ;
+    background-color: hsl(25, 97%, 53%);
+    border:1px solid  hsl(25, 97%, 53%);
+}
+.btn{
+    padding: 8px 35% 8px 35%;
+    border: 1px solid hsl(25, 97%, 53%);
+    border-radius: 1rem;
+    width: max-content;
+    background-color: hsl(25, 97%, 53%);
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    border: 1px solid white;
+}
+.grey{
+    background-color: hsl(217, 12%, 63%);
+}
+.white{
+    color: white;
+}
+.text-align-center{
+    text-align: center;
+}
+.custom{
+    color: hsl(25, 97%, 53%);
+    border: 1px solid rgb(60, 65, 72);
+    border-radius: 10px;
+    background-color: rgb(60, 65, 72);
+    width: 70%;
+    margin: 18px auto 5px auto;
+}
